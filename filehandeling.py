@@ -42,6 +42,7 @@ while(True):
         print("deleted successfully")
     case 5:
         print("rename")
+        os.rename("old_name","new_name")
     case 6:
         print("stop the program")
 def create_file():
